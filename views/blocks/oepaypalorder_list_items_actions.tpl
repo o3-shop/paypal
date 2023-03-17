@@ -4,7 +4,7 @@
     [{if $listitem->blacklist == 1}]
         [{assign var="listclass" value=listitem3}]
     [{else}]
-        [{assign var="listclass" value=listitem$blWhite}]
+        [{assign var="listclass" value="listitem"|cat:$blWhite}]
     [{/if}]
 [{/if}]
 [{if $listitem->getId() == $oxid}]

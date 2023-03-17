@@ -171,7 +171,6 @@
                     </button>
                 </td>
             </tr>
-            </tr>
             [{/if}]
             [{if $orderActionManager->isActionAvailable('void')}]
             <tr>
@@ -188,7 +187,7 @@
             </tr>
             [{/if}]
         </table>
-        </br>
+        <br>
         <b>[{oxmultilang ident="OEPAYPAL_PAYMENT_HISTORY"}]: </b>
         <table id="historyTable">
             <colgroup>
@@ -234,7 +233,7 @@
 
                         <p>
                             [{if $listitem->getRefundedAmount() > 0}]
-                            [{oxmultilang ident="OEPAYPAL_CAPTURED"}]: </label><b>[{$listitem->getAmount()}]
+                            <label>[{oxmultilang ident="OEPAYPAL_CAPTURED"}]: </label><b>[{$listitem->getAmount()}]
                             <small>[{$currency}]</small>
                         </b><br/>
                             [{oxmultilang ident="OEPAYPAL_REFUNDED"}]: <b>[{$listitem->getRefundedAmount()}]
@@ -244,7 +243,7 @@
                             <small>[{$currency}]</small>
                         </b><br/>
                             [{else}]
-                            [{oxmultilang ident="OEPAYPAL_AMOUNT"}]: </label><b>[{$listitem->getAmount()}]
+                            <label>[{oxmultilang ident="OEPAYPAL_AMOUNT"}]: </label><b>[{$listitem->getAmount()}]
                             <small>[{$currency}]</small>
                         </b><br/>
                             [{/if}]
@@ -260,7 +259,7 @@
                             [{foreach from=$comments item=comment}]
                             <p>
                                 <small>[{$comment->getDate()}]</small>
-                                </br>
+                                <br>
                                 [{$comment->getComment()}]
                             </p>
                             [{/foreach}]
@@ -307,7 +306,7 @@
             [{if $listitem->oxorderarticles__oxstorno->value == 1}]
             [{assign var="listclass" value=listitem3}]
             [{else}]
-            [{assign var="listclass" value=listitem$blWhite}]
+            [{assign var="listclass" value="listitem"|cat:$blWhite}]
             [{/if}]
             <tr id="art.[{$smarty.foreach.orderArticles.iteration}]">
                 <td valign="top" class="[{$listclass}]">[{$listitem->oxorderarticles__oxamount->value}]</td>
@@ -385,7 +384,7 @@
             </p>
             <div class="paypalStatusListPlaceholder"></div>
             <p class="paypalActionsBlockNotice">
-                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label></br>
+                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label><br>
                 <textarea name="action_comment"></textarea>
             </p>
 
@@ -400,7 +399,7 @@
 
             <div class="paypalStatusListPlaceholder"></div>
             <p class="paypalActionsBlockNotice">
-                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label></br>
+                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label><br>
                 <textarea name="action_comment"></textarea>
             </p>
 
@@ -433,7 +432,7 @@
             </p>
             <div class="paypalStatusListPlaceholder"></div>
             <p class="paypalActionsBlockNotice">
-                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label></br>
+                <label>[{oxmultilang ident="OEPAYPAL_COMMENT"}]</label><br>
                 <textarea name="action_comment"></textarea>
             </p>
 
