@@ -30,6 +30,7 @@ class OrderFinalizationTest extends \OxidEsales\TestingLibrary\UnitTestCase
 
     public function providerFinalizeOrder_TransStatusNotChange()
     {
+        /** @var \OxidEsales\PayPalModule\Model\Order $order */
         $order = oxNew(Order::class);
         return array(
             array('Pending', $order::OEPAYPAL_TRANSACTION_STATUS_NOT_FINISHED),

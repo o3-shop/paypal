@@ -596,6 +596,7 @@ class IPNProcessingTest extends \OxidEsales\TestingLibrary\UnitTestCase
     private function createOrder($status = null)
     {
         if (is_null($status)) {
+            /** @var \OxidEsales\PayPalModule\Model\Order $order */
             $order = oxNew(Order::class);
             $status = $order::OEPAYPAL_TRANSACTION_STATUS_NOT_FINISHED;
         }

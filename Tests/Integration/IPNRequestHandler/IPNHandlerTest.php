@@ -124,6 +124,7 @@ class IPNHandlerTest extends \OxidEsales\TestingLibrary\UnitTestCase
 
     public function providerHandlingPendingRequest()
     {
+        /** @var \OxidEsales\PayPalModule\Model\Order $order */
         $order = oxNew(Order::class);
         return array(
             array('Completed', $order::OEPAYPAL_TRANSACTION_STATUS_OK),
