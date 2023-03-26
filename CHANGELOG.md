@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v1.0.1] - 2023-03-27
+
+### Fixed
+- package logo
+- some small template issues
+- annotate class instance to prevent IDE error messages
+
 ## [v1.0.0] - 2023-03-05
 
 # [O3-Shop]
@@ -281,7 +288,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Additional PayPal express checkout button in user checkout step in case no user is logged in.
 
-[v1.0.0]: https://github.com/o3-shop/paypal/releases/tag/v1.0.0
+[v1.0.1]: https://gitlab.o3-shop.com/o3/paypal/-/compare/v1.0.0...v1.0.1
+[v1.0.0]: https://gitlab.o3-shop.com/o3/paypal/-/tags/v1.0.0
 [O3-Shop]: https://www.o3-shop.com/
 [6.4.1]: https://github.com/OXID-eSales/paypal/compare/v6.4.0...v6.4.1
 [6.4.0]: https://github.com/OXID-eSales/paypal/compare/v6.3.2...v6.4.0
