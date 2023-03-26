@@ -54,7 +54,7 @@ For running codeception tests you need to provide sandbox credentials data in `o
 - Set `sBuyerPassword`
 - Set `OEPayPalClientId`
 
-For running codeception tests in test group **paypal_graphql**, you need the [GraphQL Storefront module](https://github.com/o3-shop/graphql-storefront-module/) installed
+For running codeception tests in test group **paypal_graphql**, you need the [GraphQL Storefront module](https://gitlab.o3-shop.com/o3/graphql-storefront-module/) installed
 and the following settings in the `test_config.yml`: 
 - Set `partial_module_paths` to `oe/graphql-base,oe/graphql-storefront,oe/oepaypal`
 - Set `activate_all_modules` to `true`
@@ -62,11 +62,11 @@ and the following settings in the `test_config.yml`:
 - Set `run_tests_for_shop` to `false`
 - Set `additional_test_paths` to `''`
 
-For running the tests and more configuration options, follow the instructions from [here](https://github.com/o3-shop/testing_library#running-tests).
+For running the tests and more configuration options, follow the instructions from [here](https://gitlab.o3-shop.com/o3/testing_library#running-tests).
 
 ### Bugs and Issues
 
-If you experience any bugs or issues, please report them in the section **module PayPal** of https://bugs.o3-shop.com.
+If you experience any bugs or issues, please report them in the section **module PayPal** of https://issues.o3-shop.com.
 
 ### Documentation
 
