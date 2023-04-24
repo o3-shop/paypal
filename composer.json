@@ -38,7 +38,8 @@
         "lib-curl": ">=7.26.0",
         "lib-openssl": ">=1.0.1",
         "ext-curl": "*",
-        "ext-openssl": "*"
+        "ext-openssl": "*",
+        "o3-shop/shop-ce": "^1.2"
     },
     "require-dev": {
          "codeception/module-rest": "^1.4.2",
