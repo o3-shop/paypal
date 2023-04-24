@@ -21,7 +21,7 @@
 /**
  * Metadata version
  */
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 
 /**
  * Module information
@@ -34,7 +34,7 @@ $aModule = array(
         'en' => 'Module for PayPal payment.',
     ),
     'thumbnail'    => 'logo.jpg',
-    'version'      => '1.0.1',
+    'version'      => '1.1.0',
     'author'       => 'O3-Shop',
     'url'          => 'https://www.o3-shop.com',
     'email'        => 'info@o3-shop.com',

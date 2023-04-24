@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## unreleased
+
+## [v1.1.0] - 2023-04-24
+
+### Changed
+- decoded config items for mySQL 8 compatibility
+
 ## [v1.0.1] - 2023-03-27
 
 ### Fixed
@@ -288,6 +295,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Additional PayPal express checkout button in user checkout step in case no user is logged in.
 
+[v1.1.0]: https://gitlab.o3-shop.com/o3/paypal/-/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://gitlab.o3-shop.com/o3/paypal/-/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://gitlab.o3-shop.com/o3/paypal/-/tags/v1.0.0
 [O3-Shop]: https://www.o3-shop.com/

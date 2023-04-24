@@ -19,14 +19,8 @@ System requirements and installation instructions are described in the module do
 
 In order to install the module via composer run one of the following commands in commandline in your shop base directory 
 (where the shop's composer.json file resides).
-* **composer require o3-shop/paypal-module:^5.0.0** to install the released version compatible with O3-Shop Compilation 6.1
-* **composer require o3-shop/paypal-module:6.2.3** to install the released version compatible with O3-Shop Compilation 6.2
-* **composer require o3-shop/paypal-module:^6.3.0** to install the released version compatible with O3-Shop Compilation 6.3
-  * Please note that 6.3.1 patch release is also compatible with O3-Shop Compilation 6.2 (PHP 7.1 and higher).
-  * Please note that PayPal ^v6.3.0 is compatible with GraphQL Storefront ^v1.0.0.
-* **composer require o3-shop/paypal-module:^6.4.0** to install the released version compatible with O3-Shop Compilation 6.4
-  * Please note that PayPal ^v6.4.0 is compatible with GraphQL Storefront ^v2.0.0.
-* **composer require o3-shop/paypal-module:dev-master** to install the latest unreleased version from github
+* **composer require o3-shop/paypal-module:^1.0.0** to install the released version compatible with O3-Shop Compilation 1.x
+  * Please note that PayPal ^v1.0.0 is compatible with GraphQL Storefront ^v2.0.0.
 
 ### Running tests locally
 
