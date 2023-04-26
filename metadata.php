@@ -33,7 +33,7 @@ $aModule = array(
         'de' => 'Modul für die Zahlung mit PayPal.',
         'en' => 'Module for PayPal payment.',
     ),
-    'thumbnail'    => 'logo.jpg',
+    'thumbnail'    => 'logo.png',
     'version'      => '1.1.0',
     'author'       => 'O3-Shop',
     'url'          => 'https://www.o3-shop.com',
