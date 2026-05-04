@@ -60,7 +60,7 @@ For running the tests and more configuration options, follow the instructions fr
 
 ### Bugs and Issues
 
-If you experience any bugs or issues, please report them in the section **module PayPal** of https://issues.o3-shop.com.
+If you experience any bugs or issues, please report them in the section **module PayPal** of [https://github.com/o3-shop/o3-shop/issues](https://github.com/o3-shop/o3-shop/issues).
 
 ### Documentation
 
